@@ -74,6 +74,7 @@ pip install -r requirements.txt
 Veri setini indirip, kodda açıklandığı gibi organize edin.
 
 Jupyter Notebook’u veya Python dosyalarını çalıştırarak modeli eğitip değerlendirin.
+Kaggle linki : https://www.kaggle.com/code/ilaydakileci/deep-learning-project?scriptVersionId=203124655
 
 📝 Lisans
 Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için LICENSE dosyasına bakabilirsiniz.
