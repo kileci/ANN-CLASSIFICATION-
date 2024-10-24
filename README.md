@@ -25,6 +25,7 @@ Gereksinimleri yüklemek için:
 bash
 Kodu kopyala
 pip install -r requirements.txt
+
 📁 Veri Seti
 Bu projede kullanılan veri seti, çeşitli balık türlerinin görüntülerini içerir. Bu görüntüler, dosya yolları ve her bir görüntünün etiketi ile pandas DataFrame yapısında organize edilmiştir.
 
@@ -47,6 +48,7 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(128, activation='relu'),
     tf.keras.layers.Dense(9, activation='softmax')  # 9 sınıf için çıkış
 ])
+
 🎯 Değerlendirme
 Model, doğruluk (accuracy), kayıp (loss) ve karışıklık matrisi (confusion matrix) gibi metriklerle değerlendirildi. Test verileri üzerinde aşağıdaki sonuçlar elde edilmiştir:
 
